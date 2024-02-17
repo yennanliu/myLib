@@ -52,7 +52,7 @@
                         <include>**/*</include>
                     </includes>
                     <repositoryName>myLib</repositoryName>
-                    <repositoryOwner>yen</repositoryOwner>
+                    <repositoryOwner>yennanliu</repositoryOwner>
                 </configuration>
                 <executions>
                     <execution>
