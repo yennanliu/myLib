@@ -26,4 +26,8 @@ public class Util {
         return n1 * n1;
     }
 
+    public Double sin(int n1){
+        return Math.sin(n1);
+    }
+
 }
