@@ -45,7 +45,7 @@
                 <configuration>
                     <message>Maven artifacts for ${project.artifactId}-${project.version}</message>
                     <noJekyll>true</noJekyll>
-                    <outputDirectory>${project.build.directory}</outputDirectory>
+                    <outputDirectory>${project.build.directory}/myLib</outputDirectory>
                     <branch>gh-pages</branch>
                     <merge>true</merge>
                     <includes>
