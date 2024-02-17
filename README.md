@@ -19,10 +19,11 @@
 
 ## Deploy to Github
 
-```bash
-# TODO : double check below cmd
-mvn clean deploy -Dmaven.test.skip  -DaltDeploymentRepository=self-mvn-repo::default::file:/Users/yennanliu/myLib
+- Step 1: setup `~/.m2/settings.xml `
 
+- Step 2: deploy 
+```bash
+# copy below cmd, and run in IntellJ "maven input", then can deploy updated project to github maven
 mvn clean deploy -Dmaven.test.skip  -DaltDeploymentRepository=self-mvn-repo::default::file:/Users/yennanliu/myLib/myLib
 ```
 

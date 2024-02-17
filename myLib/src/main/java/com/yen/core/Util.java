@@ -22,4 +22,8 @@ public class Util {
         return n1 / n2;
     }
 
+    public Integer square(int n1){
+        return n1 * n1;
+    }
+
 }
