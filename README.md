@@ -19,6 +19,13 @@
 
 ## Deploy to Github
 
+```bash
+# TODO : double check below cmd
+mvn clean deploy -Dmaven.test.skip  -DaltDeploymentRepository=self-mvn-repo::default::file:/Users/yennanliu/myLib
+
+mvn clean deploy -Dmaven.test.skip  -DaltDeploymentRepository=self-mvn-repo::default::file:/Users/yennanliu/myLib/myLib
+```
+
 ## Ref
 
 - Maven

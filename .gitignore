@@ -26,3 +26,5 @@ replay_pid*
 myLib/.idea
 myLib/target/
 com/yen/myLib/1.0-SNAPSHOT
+myLib/com/yen/myLib/1.0-SNAPSHOT
+com/yen/myLib/maven-metadata*
