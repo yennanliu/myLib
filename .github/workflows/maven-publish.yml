@@ -29,6 +29,6 @@ jobs:
       run: mvn -B package --file pom.xml
 
     - name: Publish to GitHub Packages Apache Maven
-      run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
+      run: mvn deploy -s https://urban-guacamole-q76xq7j9rx5h9r94.github.dev/settings.xml
       env:
         GITHUB_TOKEN: ${{ github.token }}
