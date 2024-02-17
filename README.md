@@ -27,6 +27,11 @@
 mvn clean deploy -Dmaven.test.skip  -DaltDeploymentRepository=self-mvn-repo::default::file:/Users/yennanliu/myLib/myLib
 ```
 
+- Example usage
+	- https://github.com/yennanliu/JavaHelloWorld/blob/main/pom.xml#L92
+	- https://github.com/yennanliu/JavaHelloWorld/blob/main/src/main/java/Workspace/test.java
+
+
 ## Ref
 
 - Maven
