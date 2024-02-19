@@ -29,12 +29,11 @@ mvn clean deploy -Dmaven.test.skip  -DaltDeploymentRepository=self-mvn-repo::def
 
 - Example usage
   ```
-        <dependency>
-            <groupId>com.yen</groupId>
-            <artifactId>myLib</artifactId>
-<!--            <version>1.0-SNAPSHOT</version>-->
-            <version>1.1-SNAPSHOT</version>
-        </dependency>  
+  <dependency>
+  	<groupId>com.yen</groupId>
+  	<artifactId>myLib</artifactId>
+  	<version>1.0-SNAPSHOT</version>
+  </dependency>  
   ```
 	- https://github.com/yennanliu/JavaHelloWorld/blob/main/pom.xml#L92
 	- https://github.com/yennanliu/JavaHelloWorld/blob/main/src/main/java/Workspace/test.java
